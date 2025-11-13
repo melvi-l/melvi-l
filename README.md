@@ -1,10 +1,13 @@
 # Melvi-l
 
-Most of the time, I touch grass and live life. Then sometimes, i do little silly useless but fun project and I obsess over node editors.
+I try to be as much of a Graphic Programmer as I can, making my way downward as I leave the JS abstraction hell for real-time system programming.
 
-The current one is a [rust-wgpu node editor](https://github.com/melvi-l/node-editor), a direct successor to the TypeScript version.
+But most of the time, I am actively reducing my lifespan by doing all type of reckless activities and touching grass.
 
-The last one was my little silly overengineered [webgpu-typescript node editor](https://github.com/melvi-l/node-editor-webgpu). This was my first iteration on my node editor journey. I chose typescript and webgpu because I come from (and currently work in) a ThreeJS/WebGL environment and I wanted to learn a nearly “raw” graphics API -- as WebGL has started to show some limitations. This project gave me the oportunity to learn WebGPU basics and to experiment with Instancing, QuadTree, GPUPicking and more, by overengineering a simple problem. 
-As a fun side quest I built a small declarative Snabbdom-like frontend framework, [kuai-ts](https://github.com/melvi-l/kuai-ts), and used it to build a little [color-picker using webgpu](https://github.com/melvi-l/color-picker-webgpu). In order to add text support, I went down the the font rendering rabbit hole and came back with the idea to compile [Viktor Chlumský](https://github.com/Chlumsky) msdf-gen C++ library to WASM, to build a msdf text renderer from TTF, generating the MSDF atlas in a WebWorker on-the-fly. [Here is the unfinished project](https://github.com/melvi-l/msdf-webgpu)
+Then sometimes, I do little and silly, useless but fun, oftenly unfinished, project.
 
-I code on nvim-tmux with a [corn](https://github.com/foostan/crkbd), all of this runs inside WSL in my c*rporate girlie™ time between 9 and 5 or inside whatever distro I am on in my neverending distrohopping journey.
+I am currently onto some snake shit: I started writing a terminal snake game in assembly that I dropped to write a more advanced version in C with SDL on [snourke](https://github.com/melvi-l/snourke/tree/main).
+
+I am freshly out of some node editor obsession: I worked (fully baked) some time on a [webgpu-typescript node editor](https://github.com/melvi-l/node-editor-webgpu) that I overengineered just for the game. As a fun side quest to it I built a small declarative Snabbdom-like frontend framework nammed [kuai-ts](https://github.com/melvi-l/kuai-ts), and used it to build a little [color-picker using webgpu](https://github.com/melvi-l/color-picker-webgpu). I tried to build a msdf text renderer from TTF, generating the MSDF atlas in a WebWorker on-the-fly, [but I left the project unfinished](https://github.com/melvi-l/msdf-webgpu). I just initialized a [rust-wgpu version of the node editor](https://github.com/melvi-l/node-editor) as a direct successor and improvement to the TypeScript before leaving it.
+
+Also there is [my site](https://melvil.fr).
